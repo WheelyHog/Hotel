@@ -42,9 +42,11 @@ h4 {
   display: flex;
   align-items: flex-end;
   height: 40px;
-  margin-right: 512px;
 }
 
+.logo-link{
+  text-decoration: none;
+}
 .header-top * {
   display: inline;
 }
@@ -54,7 +56,9 @@ h4 {
   line-height: 24px;
   margin-left: 10px;
 }
-
+.navbar{
+  float: right;
+}
 .menu-list a {
   margin: 0 20px;
   text-decoration: none;
@@ -74,6 +78,10 @@ h4 {
   border: 2px solid #999;
   border-radius: 35px;
   margin-left: 20px;
+  cursor: pointer;
+}
+.authorization-btn:hover{
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 10px 15px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
 }
 
 .header-inner {
@@ -133,6 +141,10 @@ h4 {
   font-weight: 600;
   border: none;
   border-radius: 8px;
+  cursor: pointer;
+}
+.header-inner-card-btn:hover{
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 10px 15px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
 }
 
 .banner {
@@ -213,6 +225,9 @@ h4 {
   outline: none;
   margin-bottom: 30px;
 }
+.check-inner-btn{
+  cursor: pointer;
+}
 
 .popular-cards {
   display: flex;
@@ -225,7 +240,9 @@ h4 {
   border: 1px solid #ABABAB;
   margin-top: -5px;
 }
-
+.popular-cards-item{
+  cursor: pointer;
+}
 .popular-cards-item-title {
   font-weight: 400;
   font-size: 24px;
@@ -380,6 +397,9 @@ h4 {
   display: flex;
   gap: 30px;
 }
+.news-slider-item{
+  cursor: pointer;
+}
 
 .news-slider-img {
   width: 100%;
@@ -466,6 +486,7 @@ h4 {
   width: 354px;
   border-radius: 6px;
   box-shadow: 0px 2px 12px rgba(52, 52, 52, 0.15);
+  outline: none;
 }
 
 .subscribe-submit {
@@ -478,6 +499,7 @@ h4 {
   font-size: 16px;
   margin-left: -12px;
   outline: none;
+  cursor: pointer;
 }
 
 .logo-img,
@@ -492,6 +514,10 @@ h4 {
   gap: 70px;
 }
 
+.footer-logo-link{
+  cursor: pointer;
+  text-decoration: none;
+}
 .footer-item-text,
 .footer-item-list {
   margin-top: 20px;
