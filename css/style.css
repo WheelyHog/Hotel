@@ -48,7 +48,8 @@ h4 {
   text-decoration: none;
   color: #353637;
 }
-.logo-text{
+
+.logo-text {
   color: #353637;
 }
 
@@ -166,16 +167,18 @@ h4 {
   gap: 16px;
 }
 
+.baner-left-img,
+.banner-right-img {
+  border-radius: 15px;
+}
+
 .banner-right {
   display: flex;
   flex-direction: column;
   gap: 16px;
 }
 
-/* .banner-left img{
-  position: relative;
-} */
-.banner-descr {
+.banner-descr{
   /* position: absolute; */
   font-weight: 600;
   font-size: 48px;
@@ -234,12 +237,16 @@ h4 {
   padding: 12px 14px;
   outline: none;
   margin-bottom: 30px;
+  transition: all .5s;
 }
 
 .check-inner-btn {
   cursor: pointer;
 }
-
+.check-input:hover{
+  border: 1px solid #596B86;
+  color: #596B86;
+}
 .popular-cards {
   display: flex;
   justify-content: space-between;
@@ -323,7 +330,8 @@ h4 {
   transition: all .5s;
   background-color: #eaeffd;
 }
-.facilities-item:hover{
+
+.facilities-item:hover {
   scale: 1.2;
   background-color: #fff;
 }
