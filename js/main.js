@@ -1,15 +1,37 @@
 var swiper = new Swiper(".mySwiper", {
+  spaceBetween: 30,
+  effect: 'fade',
+  speed: 3000,
   centeredSlides: true,
   autoplay: {
-    delay:10000,
+    delay: 10000,
     disableOnInteraction: false,
-    speed: 5000,
-    effect: 'fade',
     fadeEffect: {
       crossFade: true
     },
-
   },
+});
 
+var swiper = new Swiper(".feedbackSwiper", {
+  slidesPerView: 3,
+  slidesPerGroup: 3,
+  loop: true,
+  spaceBetween: 20,
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+    dynamicBullets: true,
+  },
+});
 
+var swiper = new Swiper( ".newsSwiper", {
+  slidesPerView: 3,
+  slidesPerGroup: 3,
+  loop: true,
+  spaceBetween: 30,
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+    dynamicBullets: true,
+  },
 });

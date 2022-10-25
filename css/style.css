@@ -410,7 +410,20 @@ h4 {
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
-.slider-pagination,
+.swiper-pagination-bullet{
+  width: 12px;
+  height: 12px;
+}
+.swiper-pagination-bullet-active-main{
+  background-color: #597193;
+  width: 20px;
+  height: 12px;
+  border-radius: 7px;
+}
+
+.pagination-inner{
+ margin-top: 60px;
+}
 .news-pagination {
   margin-top: 70px;
   text-align: center;
@@ -420,16 +433,16 @@ h4 {
   margin-top: 100px;
 }
 
-.news-slider {
-  display: flex;
-  gap: 30px;
+.newsSwiper .swiper-wrapper{
+  margin-right: 5px;
 }
 
 .news-slider-item {
   cursor: pointer;
+  margin-left: 1px;
 }
 
-.news-slider-img {
+.news-slider-img{
   width: 100%;
 }
 
