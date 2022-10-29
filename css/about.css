@@ -1,0 +1,117 @@
+.about-banner {
+  margin-top: 50px;
+  background: url("/images/about-banner.png");
+  width: 100%;
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+}
+
+.banner-title {
+  align-self: center;
+  color: #fff;
+  text-shadow: 1px 1px #000;
+}
+
+.main-about-inner {
+  margin-top: 100px;
+  padding: 0 50px;
+  display: flex;
+  gap: 50px;
+}
+
+.main-title {
+  margin-bottom: 50px;
+}
+
+.main-descr {
+  font-size: 16px;
+  margin-bottom: 30px;
+  line-height: 30px;
+}
+
+.about-career {
+  margin-top: 100px;
+  background: url("/images/about-main.png");
+  height: 350px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.about-career-inner {
+  width: 400px;
+  transform: translate(250%, 100%);
+}
+
+.about-career-title {
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.about-career-btn {
+  background-color: #3E6D9c;
+  color: #fff;
+  padding: 12px 50px;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 1s;
+}
+
+.about-career-btn:hover {
+  background-color: #000;
+}
+
+.about-more-title {
+  margin: 50px 0;
+}
+
+.more-items {
+  display: flex;
+  text-align: center;
+}
+
+.more-item {
+  position: relative;
+}
+
+.more-item-img img {
+  border-radius: 10px;
+}
+
+.more-btn {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  transform: translateX(-175%);
+  background: #fff;
+  padding: 10px 25px;
+  font-weight: 600;
+  border-radius: 10px;
+  transition: all 1s;
+  cursor: pointer;
+}
+.more-item-img img{
+  opacity: 0.9;
+  transition: all .5s;
+}
+
+.more-item-img img:hover~button {
+  opacity: 1;
+  top: 150px;
+}
+.more-item-img img:hover{
+  opacity: 1;
+}
+
+.more-item-descr {
+  padding: 20px 30px;
+}
+
+.more-item-text {
+  margin-top: 20px;
+}

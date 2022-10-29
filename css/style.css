@@ -74,7 +74,9 @@ h4 {
   transition: all .3s;
   border-bottom: 0px solid rgba(177, 190, 208, 0);
 }
-
+.menu-active a{
+  border-bottom: 3px solid rgba(177, 190, 208, 1);
+}
 .menu-list a:hover {
   border-bottom: 3px solid rgba(177, 190, 208, 1);
 }
