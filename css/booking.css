@@ -82,13 +82,15 @@
 
 }
 
-.offer-inner-head{
+.offer-inner-head {
   display: flex;
   justify-content: space-between;
 }
-.offer-btn{
+
+.offer-btn {
   border-radius: 3px;
 }
-.swiper-slide img{
+
+.swiper-slide img {
   border-radius: 5px;
 }
