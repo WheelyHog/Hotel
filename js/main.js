@@ -35,3 +35,27 @@ var swiper = new Swiper( ".newsSwiper", {
     dynamicBullets: true,
   },
 });
+
+var swiper = new Swiper( ".offerSwiper", {
+  slidesPerView: 5,
+  slidesPerGroup: 1,
+  loop: true,
+  spaceBetween: 30,
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+    dynamicBullets: true,
+  },
+});
+
+var swiper = new Swiper( ".browseSwiper", {
+  slidesPerView: 4,
+  slidesPerGroup: 1,
+  loop: true,
+  spaceBetween: 30,
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+    dynamicBullets: true,
+  },
+});
