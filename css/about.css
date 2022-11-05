@@ -13,6 +13,7 @@
   align-self: center;
   color: #fff;
   text-shadow: 1px 1px #000;
+  max-width: 70%;
 }
 
 .main-about-inner {

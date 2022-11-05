@@ -1,18 +1,6 @@
-.header {
-  font-size: 16px;
+.header-logo-link img{
+  vertical-align: baseline;
 }
-
-.menu-list-item a {
-  text-decoration: none;
-  color: #353637;
-  font-weight: 400;
-}
-
-.menu-list-item a:hover {
-  text-decoration: none;
-  color: #353637;
-}
-
 .search {
   background: #B1BED0;
   margin-top: 50px;
