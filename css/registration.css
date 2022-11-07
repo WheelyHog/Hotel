@@ -1,0 +1,86 @@
+.header-section{
+  padding-bottom: 20px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+}
+
+.registration-form{
+  margin: 50px auto;
+  max-width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 60px 100px;
+  text-align: center;
+}
+.registration-form h4{
+  margin-bottom: 30px;
+}
+.registration-form input{
+  margin-bottom: 20px;
+}
+.registration-form label{
+  text-align: left;
+}
+
+.registration-form input{
+  padding: 8px 10px;
+  border: 1px solid #607d8b;
+  border-radius: 5px;
+  outline: none;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.registration-form button{
+  background-color: #607d8b;
+  color: #fff;
+  outline: none;
+  font-weight: 600;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all .5s;
+  padding: 10px 15px;
+  margin-bottom: 20px;
+}
+.registration-form button:hover{
+  background-color: #353637;
+}
+.registration-form p{
+  text-align: center;
+}
+.registration-form a{
+  text-decoration: none;
+  color: #353637;
+  margin-bottom: 30px;
+}
+
+.registration-links{
+  display: flex;
+  justify-content: space-around;
+  font-size: 40px;
+}
+.registration-links a{
+  color: #607d8b;
+  padding: 12px 20px;
+  border: 1px solid #607d8b;
+  border-radius: 5px;
+  margin: 25px 0;
+  transition: all .5s;
+}
+.registration-links a:hover{
+  border: 1px solid #353637;
+}
+.registration-more{
+  font-weight: 600;
+}
+.registration-form-privacy{
+  padding: 20px 0;
+  border-top: 1px solid #607d8b;
+  border-bottom: 1px solid #607d8b;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+.copyright{
+  font-size: 14px;
+}
