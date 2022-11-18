@@ -76,7 +76,7 @@ main .container{
 .registration-links a{
   color: #607d8b;
   padding: 0px 8px;
-  border: 2px solid #607d8b;
+  border: 1px solid #607d8b;
   border-radius: 5px;
   margin: 25px 0;
   transition: all .5s;
