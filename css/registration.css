@@ -3,14 +3,27 @@
   box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
 }
 
+main{
+  background-image: url("/images/reg-bg2.jpg");
+  margin: -40px 0;
+  background-repeat: no-repeat;
+}
+
+main .container{
+  padding: 40px;
+}
+
 .registration-form{
-  margin: 50px auto;
+  background-color: #fff;
+  margin: 0 auto;
   max-width: 50%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   padding: 60px 100px;
   text-align: center;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border-radius: 5px;
 }
 .registration-form h4{
   margin-bottom: 30px;
@@ -62,8 +75,8 @@
 }
 .registration-links a{
   color: #607d8b;
-  padding: 12px 20px;
-  border: 1px solid #607d8b;
+  padding: 0px 8px;
+  border: 2px solid #607d8b;
   border-radius: 5px;
   margin: 25px 0;
   transition: all .5s;

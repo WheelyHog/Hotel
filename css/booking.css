@@ -82,3 +82,22 @@
 .swiper-slide img {
   border-radius: 5px;
 }
+
+.textblock-wrapper{
+  display: flex;
+  gap: 20px;
+}
+.textblock{
+  flex: 1;
+  border: 1px solid #B1BED0;
+  margin-bottom: 20px;
+  border-radius: 10px; 
+}
+.textblock-header{
+  background-color: #B1BED0;
+  padding: 10px;
+  border-radius: 10px 10px 0 0;
+}
+.textblock-inner{
+  padding: 20px;
+}
