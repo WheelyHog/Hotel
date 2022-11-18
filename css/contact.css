@@ -4,7 +4,7 @@
 }
 
 main{
-  background-image: url("/images/contact-bg2.jpg");
+  background-image: url("images/contact-bg2.jpg");
   margin: -40px 0;
   background-repeat: no-repeat;
 }
