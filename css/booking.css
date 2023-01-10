@@ -25,15 +25,6 @@
   min-width: 300px;
 }
 
-.search-item-wrapper #dropdown_toggle_1 {
-  background-color: #fff;
-  min-width: 150px;
-}
-
-#dropdown_toggle_1 span {
-  margin-right: 10px;
-}
-
 .search-item-wrapper .button {
   justify-content: start;
 }

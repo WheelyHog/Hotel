@@ -1,3 +1,11 @@
+// ============== MOBILE MENU =====================
+const menuBtn = document.querySelector('.menu-btn');
+const menuMobileList = document.getElementById('mobile-list');
+menuBtn.onclick = () => {
+  menuMobileList.classList.toggle('menu-mobile-list-active');
+}
+
+
 var swiper = new Swiper(".mySwiper", {
   spaceBetween: 30,
   effect: 'fade',
@@ -59,3 +67,21 @@ var swiper = new Swiper( ".browseSwiper", {
     dynamicBullets: true,
   },
 });
+
+const moreBtnList = document.querySelectorAll('.more-btn');
+const imgList = document.querySelectorAll('.more-item-img');
+
+for(let i = 0; i < imgList.length; i++){
+  imgList[i].onmouseover = () =>{
+    moreBtnList[i].style.top = '150px';
+    moreBtnList[i].style.opacity = '1';
+  }
+
+  imgList[i].onmouseout = () =>{
+    moreBtnList[i].style.top = '0';
+    moreBtnList[i].style.opacity = '0';
+  }
+}
+
+
+  
